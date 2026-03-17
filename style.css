@@ -17,6 +17,17 @@ header {
     color: #fff;
     padding: 1.5rem 0;
     text-align: center;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
+
+.profile-img {
+    width: 120px;
+    height: 120px;
+    object-fit: cover;
+    border-radius: 50%;
+    margin-bottom: 1rem;
 }
 
 nav ul {
@@ -78,16 +89,23 @@ section h2 {
 .project-card {
     background-color: #fff;
     border: 1px solid #ddd;
-    border-radius: 8px;
+    border-radius: 10px;
     padding: 1rem;
     flex: 1 1 300px;
     box-shadow: 0 2px 5px rgba(0,0,0,0.1);
     text-align: center;
+    transition: transform 0.3s ease;
+}
+
+.project-card:hover {
+    transform: translateY(-5px);
 }
 
 .project-img {
     width: 100%;
-    height: auto;
+    max-height: 200px;
+    object-fit: contain;
+    background-color: #fff;
     border-radius: 8px;
     margin-bottom: 1rem;
 }
