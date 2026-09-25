@@ -326,7 +326,7 @@ This article does not have a corresponding language version
   <div class="custom-sidebar-social">
     <a href="https://discordapp.com/users/y0dam4n" target="_blank" class="custom-social-link" aria-label="Discord" rel="noopener nofollow noreferrer">
       <img src="../images/discord.svg" alt="discord" class="custom-social-img">
-    </a><a href="https://github.com/Shreyas-Rajesh" target="_blank" class="custom-social-link" aria-label="GitHub" rel="noopener nofollow noreferrer">
+    </a><a href="https://github.com/y0dam4n" target="_blank" class="custom-social-link" aria-label="GitHub" rel="noopener nofollow noreferrer">
       <img src="../images/github.svg" alt="github" class="custom-social-img">
     </a><a href="https://x.com/y0dam4n" target="_blank" class="custom-social-link" aria-label="X" rel="noopener nofollow noreferrer">
       <img src="../images/X.svg" alt="x" class="custom-social-img">
@@ -500,20 +500,15 @@ img.cyber-avatar {
   border-radius: 0 !important;
   box-shadow: none !important;
   background: transparent !important;
-  opacity: 1 !important;
+  opacity: 0.85 !important;
   display: block !important;
   object-fit: contain !important;
+  filter: brightness(0) invert(1) !important;  
+  transition: opacity 0.2s ease, transform 0.2s ease !important;
 }
 
- 
-[data-theme="dark"] .custom-social-img {
-  filter: brightness(1.3) !important;
-}
-
- 
-[data-theme="dark"] .custom-social-img[alt="github"],
-[data-theme="dark"] .custom-social-img[alt="x"] {
-  filter: invert(1) brightness(2) !important;
+.custom-social-link:hover .custom-social-img {
+  opacity: 1 !important;
 }
 
 .sidebar-state {
@@ -1495,7 +1490,7 @@ img.cyber-avatar {
   <div class="custom-sidebar-social">
     <a href="https://discordapp.com/users/y0dam4n" target="_blank" class="custom-social-link" aria-label="Discord" rel="noopener nofollow noreferrer">
       <img src="../images/discord.svg" alt="discord" class="custom-social-img">
-    </a><a href="https://github.com/Shreyas-Rajesh" target="_blank" class="custom-social-link" aria-label="GitHub" rel="noopener nofollow noreferrer">
+    </a><a href="https://github.com/y0dam4n" target="_blank" class="custom-social-link" aria-label="GitHub" rel="noopener nofollow noreferrer">
       <img src="../images/github.svg" alt="github" class="custom-social-img">
     </a><a href="https://x.com/y0dam4n" target="_blank" class="custom-social-link" aria-label="X" rel="noopener nofollow noreferrer">
       <img src="../images/X.svg" alt="x" class="custom-social-img">
@@ -1687,20 +1682,15 @@ img.cyber-avatar {
   border-radius: 0 !important;
   box-shadow: none !important;
   background: transparent !important;
-  opacity: 1 !important;
+  opacity: 0.85 !important;
   display: block !important;
   object-fit: contain !important;
+  filter: brightness(0) invert(1) !important;  
+  transition: opacity 0.2s ease, transform 0.2s ease !important;
 }
 
- 
-[data-theme="dark"] .custom-social-img {
-  filter: brightness(1.3) !important;
-}
-
- 
-[data-theme="dark"] .custom-social-img[alt="github"],
-[data-theme="dark"] .custom-social-img[alt="x"] {
-  filter: invert(1) brightness(2) !important;
+.custom-social-link:hover .custom-social-img {
+  opacity: 1 !important;
 }
 
 .sidebar-state {
